@@ -1,8 +1,8 @@
 package org.sid.service;
 
+import org.sid.entities.Keynote;
+import org.sid.repository.KeynoteRepository;
 
-import com.example.keynoteservice.entities.Keynote;
-import com.example.keynoteservice.repository.KeynoteRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

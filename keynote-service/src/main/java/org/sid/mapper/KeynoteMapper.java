@@ -1,8 +1,10 @@
 package org.sid.mapper;
 
 
-import com.example.keynoteservice.dto.KeynoteDTO;
-import com.example.keynoteservice.entities.Keynote;
+
+import org.sid.dto.KeynoteDTO;
+import org.sid.entities.Keynote;
+
 
 public class KeynoteMapper {
     public static KeynoteDTO toDto(Keynote k) {

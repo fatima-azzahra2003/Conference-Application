@@ -1,7 +1,6 @@
 package org.sid.repository;
 
-
-import com.example.keynoteservice.entities.Keynote;
+import org.sid.entities.Keynote;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 

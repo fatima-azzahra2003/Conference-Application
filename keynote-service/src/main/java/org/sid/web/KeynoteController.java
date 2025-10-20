@@ -1,10 +1,10 @@
 package org.sid.web;
 
+import org.sid.dto.KeynoteDTO;
+import org.sid.entities.Keynote;
+import org.sid.mapper.KeynoteMapper;
+import org.sid.service.KeynoteService;
 
-import com.example.keynoteservice.dto.KeynoteDTO;
-import com.example.keynoteservice.entities.Keynote;
-import com.example.keynoteservice.mapper.KeynoteMapper;
-import com.example.keynoteservice.service.KeynoteService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

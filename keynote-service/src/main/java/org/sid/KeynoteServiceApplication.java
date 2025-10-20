@@ -1,8 +1,8 @@
 package org.sid;
 
+import org.sid.entities.Keynote;
+import org.sid.repository.KeynoteRepository;
 
-import com.example.keynoteservice.entities.Keynote;
-import com.example.keynoteservice.repository.KeynoteRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
