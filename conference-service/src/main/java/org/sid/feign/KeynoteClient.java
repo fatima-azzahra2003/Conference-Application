@@ -1,7 +1,6 @@
 package org.sid.feign;
 
-
-import com.example.conferenceservice.feign.dto.KeynoteDTO;
+import org.sid.DTO.KeynoteDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

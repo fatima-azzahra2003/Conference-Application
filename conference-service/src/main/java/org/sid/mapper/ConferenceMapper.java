@@ -1,10 +1,8 @@
 package org.sid.mapper;
-
-
-import com.example.conferenceservice.DTO.ConferenceDTO;
-import com.example.conferenceservice.DTO.ReviewDTO;
-import com.example.conferenceservice.entities.Conference;
-import com.example.conferenceservice.entities.Review;
+import org.sid.DTO.ConferenceDTO;
+import org.sid.DTO.ReviewDTO;
+import org.sid.entities.Conference;
+import org.sid.entities.Review;
 
 import java.util.stream.Collectors;
 

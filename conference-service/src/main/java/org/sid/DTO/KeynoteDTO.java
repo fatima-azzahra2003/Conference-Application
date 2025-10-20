@@ -1,4 +1,4 @@
-package org.sid.feign.dto;
+package org.sid.DTO;
 
 
 import java.util.UUID;

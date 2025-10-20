@@ -1,9 +1,8 @@
 package org.sid;
+import org.sid.entities.Conference;
+import org.sid.entities.Review;
+import org.sid.Repository.ConferenceRepository;
 
-
-import com.example.conferenceservice.Repository.ConferenceRepository;
-import com.example.conferenceservice.entities.Conference;
-import com.example.conferenceservice.entities.Review;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

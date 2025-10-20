@@ -1,11 +1,11 @@
 package org.sid.service;
 
+import org.sid.DTO.KeynoteDTO;
+import org.sid.entities.Conference;
+import org.sid.entities.Review;
+import org.sid.feign.KeynoteClient;
+import org.sid.Repository.ConferenceRepository;
 
-import com.example.conferenceservice.Repository.ConferenceRepository;
-import com.example.conferenceservice.entities.Conference;
-import com.example.conferenceservice.entities.Review;
-import com.example.conferenceservice.feign.KeynoteClient;
-import com.example.conferenceservice.feign.dto.KeynoteDTO;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
